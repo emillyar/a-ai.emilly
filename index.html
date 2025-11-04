@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Açaí Mania - Loja de Açaí</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+            <h1>Açaí Mania</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Cardápio</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Hero -->
+    <section id="home" class="hero">
+        <h2>Bem-vindo à Açaí Mania!</h2>
+        <p>O melhor açaí da cidade, fresquinho e com acompanhamentos incríveis!</p>
+        <a href="#menu" class="btn">Ver Cardápio</a>
+    </section>
+
+    <!-- Seção Cardápio -->
+    <section id="menu" class="menu">
+        <h2>Nosso Cardápio</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/300x200?text=Açaí+Clássico" alt="Açaí Clássico">
+                <h3>Açaí Clássico</h3>
+                <p>Açaí puro com granola, banana e leite condensado.</p>
+                <span>R$ 15,00</span>
+            </div>
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/300x200?text=Açaí+Tropical" alt="Açaí Tropical">
+                <h3>Açaí Tropical</h3>
+                <p>Açaí com frutas tropicais e mel.</p>
+                <span>R$ 18,00</span>
+            </div>
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/300x200?text=Açaí+Fit" alt="Açaí Fit">
+                <h3>Açaí Fit</h3>
+                <p>Açaí com chia, castanhas e frutas vermelhas.</p>
+                <span>R$ 20,00</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contact" class="contact">
+        <h2>Fale Conosco</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Seu Nome" required>
+            <input type="email" id="email" placeholder="Seu E-mail" required>
+            <textarea id="message" placeholder="Sua Mensagem" required></textarea>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Açaí Mania. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
